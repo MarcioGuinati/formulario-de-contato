@@ -1,0 +1,55 @@
+<html>
+<head>
+    <title>Exerc. JQuery</title>
+
+    <script type="text/javascript"
+        src="js/jquery-3.3.1.min.js"></script>
+
+    <script type="text/javascript"
+        src="js/index.js"></script>
+
+    <link type="text/css" rel="stylesheet" 
+        href="css/estilos.css" />
+</head>
+<body>
+    <div id="box_form">
+        <form name="form_cad" id="form_cad" 
+            method="post" action="resultado.html">
+
+            <h1>Cadastre-se</h1>
+
+            <div class="input_form_1">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" 
+                    placeholder="Digite seu nome..." />
+            </div>
+
+            <div class="input_form_1">
+                <label for="email">E-mail:</label>
+                <input type="text" id="email" 
+                    placeholder="Digite seu e-mail..." />
+            </div>
+
+            <div class="input_form_2">
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" 
+                    placeholder="Digite sua senha..." />
+            </div>
+
+            <div class="input_form_2 ultima">
+                <label for="confirmacao">Confirmação de Senha:</label>
+                <input type="password" id="confirmacao" 
+                    placeholder="Confirme sua senha..." />
+            </div>
+
+            <div class="clear"></div>
+
+            <div class="botoes">
+                <button type="reset" id="btn_cancelar">Cancelar</button>
+                <button type="submit" id="btn_enviar">Enviar Dados</button>
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>

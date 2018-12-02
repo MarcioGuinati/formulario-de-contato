@@ -1,0 +1,91 @@
+body {
+    margin:0;
+    padding:0;
+}
+
+#box_form {
+    width:50%;
+    margin:50px auto 0 auto;
+    background-color:#EFEFEF;
+    border-radius:10px;
+    box-shadow:5px 5px 10px rgba(0,0,0,0.4);
+    padding:20px 30px;
+    color:#333;
+    font-family: Arial;
+}
+
+h1 {
+    border-bottom:dashed 2px #333;
+    padding:0 0 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size:18px;
+    font-weight: bold;
+}
+
+.input_form_1 label, .input_form_2 label {
+    display: block;
+    font-size:12px;
+    text-transform: uppercase;
+}
+
+.input_form_1 input, .input_form_2 input {
+    height:26px;
+    border-radius:3;
+    border:none;
+    background-color:#ccc;
+    color:#FFF;
+    font-size:16px; 
+    width:100%;
+}
+
+.input_form_2 {
+    width:45%;
+    margin-right:10%;
+    float: left;
+}
+
+.input_form_2.ultima {
+    margin-right:0;
+}
+
+.clear { 
+    clear:both;
+}
+
+.input_form_1, .input_form_2 {
+    margin-bottom:10px;
+}
+
+.botoes {
+    text-align: center;
+    margin-top:10px;
+}
+
+button {
+    border-radius:3px;
+    text-align: center;
+    width:150px;
+    padding:5px 0;
+    border:none;
+    color:#FFF;
+    cursor:pointer;
+}
+
+button[type="reset"] {
+    background-color:#F44336;
+}
+
+button[type="submit"] {
+    background-color:#1976D2;
+}
+
+.erroInput {
+    border:solid 1px #F00 !important;
+}
+
+.txtErro {
+    color:#F00;
+    margin:0;
+    padding:0;
+}
